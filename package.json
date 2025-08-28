@@ -1,0 +1,37 @@
+{
+  "name": "psy-trance-music",
+  "version": "1.0.0",
+  "description": "Psychedelic Goa Trance tracks composed using Strudel REPL",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node validate.js",
+    "validate-all": "node validate.js tracks/",
+    "validate-cosmic": "node validate.js tracks/cosmic_journey.js",
+    "validate-talamasca": "node validate.js tracks/talamasca_dreams.js",
+    "validate-forest": "node validate.js tracks/forest_spirits.js",
+    "validate-quantum": "node validate.js tracks/quantum_entanglement.js",
+    "validate-shaman": "node validate.js tracks/digital_shaman.js",
+    "validate-patterns": "node validate.js patterns/psy_patterns.js",
+    "check": "npm run validate-all"
+  },
+  "keywords": [
+    "music",
+    "psytrance",
+    "goa",
+    "trance",
+    "strudel",
+    "electronic",
+    "talamasca"
+  ],
+  "author": "Leone Lage Perdigão",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leoneperdigao/music.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
